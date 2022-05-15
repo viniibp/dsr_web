@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "DK30",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo eget.",
+    "imagem": "https://www.mexcom.com.br/inc/scripts/thumbs.php?w=150&h=150&imagem=https://www.mexcom.com.br/imagens/informacoes//retificador-industrial-01.jpg",
+    "url_pdf": ""
+  },
+  {
+    "id": 2,
+    "name": "DK30-SR",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo eget.",
+    "imagem": "https://www.mexcom.com.br/inc/scripts/thumbs.php?w=150&h=150&imagem=https://www.mexcom.com.br/imagens/informacoes//retificador-industrial-02.jpg",
+    "url_pdf": ""
+  },
+  {
+    "id": 3,
+    "name": "MB Flex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo eget.",
+    "imagem": "https://www.mexcom.com.br/inc/scripts/thumbs.php?w=150&h=150&imagem=https://www.mexcom.com.br/imagens/informacoes//retificador-industrial-03.jpg",
+    "url_pdf": ""
+  }
+]
