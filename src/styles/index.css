@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* *{
+  @apply border-[1px]
+} */
+
 body {
   @apply bg-brand-900;
 }
