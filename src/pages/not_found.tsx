@@ -1,9 +1,9 @@
 export default function NotFound() {
   return (
     <div>
-      <h6 className='text-zinc-400'>
+      <h1>
         404
-      </h6>
+      </h1>
     </div>
   );
 };
