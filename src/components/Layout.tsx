@@ -1,7 +1,12 @@
+import { ComponentProps, ElementType, PropsWithChildren, ReactNode, ReactPropTypes } from "react";
 import { Footer } from "./Footer";
 import { Header } from "./Header"
 
-export const Layout = ({ children }: any) => {
+interface Props {
+  children: React.ReactNode;
+}
+
+export const Layout = ({ children }: Props) => {
   return (
     <div className="min-h-screen h-auto relative">
       <Header />
