@@ -15,7 +15,7 @@ const MenuItems = [
 export const Header = () => {
   const location = useLocation();
   return (
-    <header className="w-screen lg:mx-auto place-items-center grid bg-red-700">
+    <header className="lg:mx-auto flex place-items-center justify-center bg-red-700">
       <div className="w-screen flex justify-center place-items-center lg:w-[1024px] lg:h-[100px] lg:justify-evenly">
         <a href="/" className='hidden lg:block'>
           <img src={Logo} alt="Logo DSR"/>

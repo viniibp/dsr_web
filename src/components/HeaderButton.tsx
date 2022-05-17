@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 interface Props {
   isLast: boolean;
@@ -11,8 +11,7 @@ export interface MenuItemProps {
   path: string;
 }
 
-export const HeaderButton = (props: Props) => {
-  const { isLast = false, isCurrent, menuProps } = props;
+export const HeaderButton = ({ isLast = false, isCurrent, menuProps }: Props) => {
   const { path, title } = menuProps;
 
   return (
