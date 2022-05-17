@@ -1,6 +1,6 @@
 import RetificadorImg from '../assets/retificador.png';
 
-function App() {
+export default function Home() {
   return (
     <section className='text-lg text-justify bg-[#292B2F] px-6 py-8 rounded-xl mx-4 text-zinc-200 flex flex-col place-items-center justify-around lg:flex-row lg:py-20'>
       <img
@@ -25,6 +25,3 @@ function App() {
     </section>
   );
 }
-
-
-export default App
