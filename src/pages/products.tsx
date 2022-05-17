@@ -5,7 +5,7 @@ export default function Products() {
     <div className="px-10 lg:px-0 grid gap-4 md:grid-cols-2 lg:grid-cols-3 lg:w-full lg:flex-row">
       {data.map(produto => {
         return (
-          <section className='rounded-xl group flex lg:min-w-[260px] px-5 py-2 place-items-center flex-col opacity-85 hover:opacity-100 bg-[#292B2F] lg:mx-5 hover:scale-105 transition-transform'>
+          <section className='rounded-xl group flex lg:min-w-[260px] px-5 py-2 place-items-center flex-col opacity-85 hover:opacity-100 bg-[#292B2F] lg:mx-5 hover:scale-95 transition-transform'>
             <h1 className='font-bold mt-3 text-zinc-200'>{produto.name}</h1>
             <img
               src={produto.imagem}
