@@ -1,15 +1,15 @@
-import RetificadorImg from '../assets/retificador.png';
+// import RetificadorImg from '../assets/retificador.png';
 
 export default function Home() {
   return (
     <section className='text-lg text-justify bg-[#292B2F] px-6 py-8 rounded-xl mx-4 text-zinc-200 flex flex-col place-items-center justify-around lg:flex-row lg:py-20'>
-      <img
+      {/* <img
         width={300}
         // height={400}
         src={RetificadorImg}
         alt="Imagem de um retificador"
         className='mb-10 aspect-auto'
-      />
+      /> */}
       <div className='grid items-center md:max-w-3xl lg:max-w-lg leading-6'>
         <p className='font-normal text-left lg:text-center pb-10 text-4xl underline underline-offset-2'>
           DSR Soluções em Eletrônica
